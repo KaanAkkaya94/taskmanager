@@ -11,7 +11,7 @@ res.status(500).json({ message: error.message });
 }
 };
 // Add Task Function:
-print('Adding Task Function');
+
 const addTask = async (
 req,
 res) => {
